@@ -1,0 +1,159 @@
+h1{
+	color:gold;	
+	font-size:50px;
+	}
+	
+	.strokeme{
+	color:gold;
+	font-size:80px;
+	margin-top:50px;
+	}
+	
+	p{
+	color:azure;
+	font-size:25px;
+	}	
+	
+	a{
+		
+		color:DarkOrange
+	}
+	body{
+	background-image: url("Images/Background.jpg");
+    background-attachment: fixed;
+	}
+	
+	#PicCred{
+	text-decoration:none;
+	color:dodgerblue;
+	}
+	
+	#Intro{
+	font-size: 30px;
+	}
+	
+	img {
+   
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+	
+	#link{
+	text-decoration:none;
+	color:OrangeRed;
+	}
+	
+	#thank{
+	margin-top:200px;
+	}
+	
+		
+	#hunt{
+	text-decoration:none;
+	color:azure;
+	}	
+		
+	#everything {
+	margin-top:40px;
+	}	
+	
+	.BegText{
+		width: 1000;
+	}			
+	
+	#navbar {
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		background-color: silver;
+		width:500px;
+		overflow: hidden;
+		border: 1px solid Black;
+		position:fixed;
+		top: 0;
+		width:100%;
+		
+	}
+	
+	.navitem {
+	float: left;
+	
+	text-align: center;
+	/* border-bottom: 1px solid orange*/ 
+	}
+	
+	.navitem a {
+	display:block;
+	padding: 8px 16px;
+	color: black;
+	text-decoration: none;
+	}
+	
+	.navitem:last-child {
+		border-bottom: none;
+	}
+	
+	/* give local style to the page we are on */
+	
+	.navitem a.active{
+	background-color: red;
+	color: black;
+	
+	}
+	
+	.navitem a:hover:not(.active){
+	/* change background color to something contrasting and text color that can be read */
+	
+	background-color: black;
+	color: red;
+	
+	}
+	
+	#main {
+	margin-top:30px;
+	padding:20px;
+	}
+	
+	.FrontPic{
+	margin-top:400px;
+	}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.normal {
+color: red;
+}
+
+
+
+
+/*TEST*/
+
+#cf {
+  position:relative;
+  height:1000px;
+  width:1000px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+	
+	

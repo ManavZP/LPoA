@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+		
+<link rel="stylesheet" type="text/css"
+href="LegendaryStyleSheetOfAwesomeness.css">
+	    	
+<link rel="icon"
+type="image/jpeg"
+href="images copy 5.jpeg"/>
+<title>Portfolio</title>
+	    	
+</head>
+
+
+<ul id="navbar"> 
+	<li class="navitem"><a href="Homepage.html">Home</a></li>
+	<li class="navitem"><a class = "active" href="page1.html">My Projects</a></li>
+	<li class="navitem"><a href="page2.html">About Me</a></li>
+	<li class="navitem"><a href="page3.html">Other Stuff</a></li>
+	<li class="navitem"><a href="LARRY.html">Larry the Orca</a></li>
+	<li class="navitem"><a href="page1NA.html">Non-Awesome-ifier</a></li>
+</ul>
+
+<body>
+<marquee class="strokeme" behavior=alternate direction="left" scrollamount="10"> My Projects  </marquee>
+
+<h1 class = "rainbow"> At the beginning of the year, I made a website based on a hobby of mine... </h1>
+<h1 class = "rainbow"><a href = "https://manavzp.github.io/lol/Marvel/INDEX.html" target="_blank" >The League of Lore</a></h1>
+<h1 class = "rainbow"> After that, I used Javascript to create a beautiful piece of art that I like to call BAILEY IN SPACE.</h1>
+<img  src = "Images/Bailey.gif" width = "500" height = "500">
+<h1 class = "rainbow"> Here's the code for that. It's long. I must be smart.</h1>
+<pre class = "rainbow"> 
+var space = new Star(250,300,100, 1000, 1000000);
+space.fill("black");
+space.addTo(stage);
+
+var Bailey = new Rect(200,100,100,100);
+Bailey.fill("blue");
+Bailey.addTo(stage);
+
+var Baileybody = new Rect(100,200,300,200);
+Baileybody.fill("black");
+Baileybody.addTo(stage);
+
+var Baileyarm = new Rect(50,200,400,100);
+Baileyarm.fill("black");
+Baileyarm.addTo(stage);
+
+var Baileylleg = new Rect(300,400,100,100);
+Baileylleg.fill("black");
+Baileylleg.addTo(stage);
+
+var Baileyrleg = new Rect(100,400,100,100);
+Baileyrleg.fill("black");
+Baileyrleg.addTo(stage);
+
+var animationrl = new KeyframeAnimation('6s', {
+    from: {x: 100, y: 400,   fillColor: 'blue',  strokeColor:'black'},
+    '1s': {x: 0,   y: 0,   fillColor: 'yellow',strokeColor:'red'},
+    '2s': {x: 0,   y: 400, fillColor: 'green', strokeColor:'green'},
+    '3s': {x: 400, y: 400, fillColor: 'red',   strokeColor:'yellow'},
+    '4s': {x: 100, y: 400,   fillColor: 'grey'},
+    to:   {x: 100, y: 400,   fillColor: 'black', strokeColor:'blue'}
+}, {repeat:Infinity});
+
+  Baileyrleg.animate(animationrl);
+  
+  var animationll = new KeyframeAnimation('6s', {
+    from: {x: 300, y: 400,   fillColor: 'blue',  strokeColor:'black'},
+    '1s': {x: 0,   y: 0,   fillColor: 'yellow',strokeColor:'red'},
+    '2s': {x: 0,   y: 400, fillColor: 'green', strokeColor:'green'},
+    '3s': {x: 40, y: 400, fillColor: 'red',   strokeColor:'yellow'},
+    '4s': {x: 300, y: 400,   fillColor: 'red'},
+    to:   {x: 300, y: 400,   fillColor: 'black', strokeColor:'blue'}
+}, {repeat:Infinity});
+
+ Baileylleg.animate(animationll);
+ 
+   var animationa = new KeyframeAnimation('6s', {
+    from: {x: 50, y: 200,   fillColor: 'blue',  strokeColor:'black'},
+    '1s': {x: 100,y: 500,   fillColor: 'yellow',strokeColor:'red'},
+    '2s': {x: 10, y: 300, fillColor: 'green', strokeColor:'green'},
+    '3s': {x: 40, y: 400, fillColor: 'red',   strokeColor:'yellow'},
+    '4s': {x: 50, y: 200, fillColor:'yellow'},
+    to:   {x: 50, y: 200,   fillColor: 'black', strokeColor:'blue'}
+}, {repeat:Infinity});
+
+Baileyarm.animate(animationa);
+
+   var animationb = new KeyframeAnimation('6s', {
+    from: {x: 100, y: 200,   fillColor: 'blue',  strokeColor:'black'},
+    '1s': {x: 200,   y: 0,   fillColor: 'grey',strokeColor:'red'},
+    '2s': {x: 0,   y: 400, fillColor: 'green', strokeColor:'green'},
+    '3s': {x: 470, y: 40, fillColor: 'orange',   strokeColor:'yellow'},
+    '4s': {x: 100, y: 200, fillColor:'orange'},
+    to:   {x: 100, y: 200,   fillColor: 'black', strokeColor:'blue'}
+}, {repeat:Infinity});
+
+Baileybody.animate(animationb);
+
+  var animationh = new KeyframeAnimation('6s', {
+    from: {x: 200, y: 100,   fillColor: 'blue',  strokeColor:'black'},
+    '1s': {x: 0,   y: 0,   fillColor: 'purple',strokeColor:'red'},
+    '2s': {x: 400, y: 400, fillColor: 'blue', strokeColor:'orange'},
+    '3s': {x: 200, y: 40, fillColor: 'red',   strokeColor:'yellow'},
+    '4s': {x: 200, y: 100, fillColor: 'green'},
+    to:   {x: 200, y: 100,   fillColor: 'black', strokeColor:'blue'}
+}, {repeat:Infinity});
+
+Bailey.animate(animationh);
+</pre>
+<h1 class = "rainbow"> The second website I've ever created was one that highlighted my dream vacation spots.</h1>
+<h1 class = "rainbow"><a href = "https://manavzp.github.io/trip/MapTrip/map.html" target="_blank" > My Dream Vacation </a></h1>
+
+<h1 class = "rainbow"> One of the biggest projects I did this year was a big game that my group and I coded in Scratch. It was about a dog. His name was Dog-dog. He was a good dog.</h1>
+<pre> <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/136594539/?autostart=false" frameborder="0" allowfullscreen></iframe> </pre>
+
+<h1 class = "rainbow"> Immediately following the Scratch project, I paired up with the transcendent Daniel Park to make a interactive game on python. It is a sequel to Dog-dog's Adventures, but takes place in story-form.</h1>
+<pre> <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/embed/EvAN/62.js?lite=true"></iframe> </pre>
+
+<h1 class = "rainbow"> After that, I did a quick mini project...I made a program that can apply a filter to any image.</h1>
+<div id="cf">
+  <img class="top" src="Images/CoolMinions.png" width = "1000">
+  <img class="top"src = "Images/MINIONS.jpg" width = "1000">
+</div>
+<h1 class = "rainbow">Finally, the last project of the year, with the same group as the first, I made a second Scratch project. This one was about space. Space is awesome. I'm awesome.</h1> 
+<pre><iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/159975283/?autostart=false" frameborder="0" allowfullscreen></iframe> </pre>
+</body>	
+</html>    	
+	   	
